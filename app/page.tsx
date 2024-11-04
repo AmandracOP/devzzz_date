@@ -170,7 +170,7 @@ const MovieDateProposal = () => {
           <Heart className="w-20 h-20 text-pink-500 animate-pulse" />
         </div>
       </div>
-      <h1 className="text-4xl font-bold text-pink-500">Hey Beautiful! 💖</h1>
+      <h1 className="text-4xl font-bold text-pink-500">Hey Devzzz! 💖</h1>
       <p className="text-xl text-gray-300">I have something special planned for us...</p>
       <div className="flex flex-col items-center space-y-4">
         <Stars className="w-8 h-8 text-yellow-500 animate-twinkle" />
