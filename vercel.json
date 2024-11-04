@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "build": {
+      "env": {
+        "npm_config_legacy_peer_deps": "true"
+      }
+    }
+  }
+  
