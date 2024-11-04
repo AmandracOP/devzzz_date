@@ -19,9 +19,12 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@/components/*": ["app/components/*"], 
+      "@/lib/*":["app/lib/*"],
+      "@/api/*":["app/api/*"] // Adding this for components path resolution
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/lib/firebase.ts", "app/api/submit-response.tsx"],
   "exclude": ["node_modules"]
 }
